@@ -36,9 +36,21 @@ img {
   max-width: 300px;
 }
 
-#color,
-#place,
-#ritual {
+.yellow-button {
   background-color: yellow;
   font-size: large;
+}
+
+#restaurant_choice {
+  display: flex;
+  align-items: center;
+}
+#restaurant_choice div {
+}
+#pickOne {
+  margin-left: 20px;
+}
+
+.result {
+  padding-left: 20px;
 }
